@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "org.bibletranslationtools"
-version = "1.0.0"
+version = "1.0.1"
 
 kotlin {
     jvmToolchain(11)
@@ -74,7 +74,7 @@ publishing {
             name = "Resource Container"
             description = "A utility for managing Door43 Resource Containers"
             inceptionYear = "2025"
-            url = "https://github.com/bibletranslationtools/android-resource-container/"
+            url = "https://github.com/bibletranslationtools/kmp-resource-container/"
             licenses {
                 license {
                     name = "GNU GENERAL PUBLIC LICENSE, Version 2.0"
@@ -90,12 +90,12 @@ publishing {
                 }
             }
             scm {
-                url = "https://github.com/bibletranslationtools/android-resource-container/"
-                connection = "scm:git:git://github.com/bibletranslationtools/android-resource-container.git"
-                developerConnection = "scm:git:ssh://git@github.com/bibletranslationtools/android-resource-container.git"
+                url = "https://github.com/bibletranslationtools/kmp-resource-container/"
+                connection = "scm:git:git://github.com/bibletranslationtools/kmp-resource-container.git"
+                developerConnection = "scm:git:ssh://git@github.com/bibletranslationtools/kmp-resource-container.git"
             }
             issueManagement {
-                url = "https://github.com/bibletranslationtools/android-resource-container/issues"
+                url = "https://github.com/bibletranslationtools/kmp-resource-container/issues"
                 system = "github"
             }
         }
