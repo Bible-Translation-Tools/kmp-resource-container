@@ -38,9 +38,9 @@ sealed interface Content {
 
         @Serializable
         data class Frame(
-            val id: String,
+            val id: String = "",
             @SerialName("tn")
-            val notes: List<Note>
+            val notes: List<Note> = emptyList()
         )
 
         @Serializable
@@ -57,9 +57,9 @@ sealed interface Content {
 
         @Serializable
         data class Chapter(
-            val id: String,
+            val id: String = "",
             @SerialName("cq")
-            val questions: List<Question>
+            val questions: List<Question> = emptyList()
         )
 
         @Serializable
@@ -79,17 +79,17 @@ sealed interface Content {
 
         @Serializable
         data class Word(
-            val id: String,
-            val term: String,
+            val id: String = "",
+            val term: String = "",
             @SerialName("def_title")
-            val title: String?,
-            val def: String,
-            val sub: String,
+            val title: String? = null,
+            val def: String = "",
+            val sub: String = "",
             @SerialName("cf")
-            val seeAlso: List<String>,
+            val seeAlso: List<String> = emptyList(),
             @SerialName("ex")
-            val examples: List<Example>,
-            val aliases: List<String>
+            val examples: List<Example> = emptyList(),
+            val aliases: List<String> = emptyList()
         )
 
         @Serializable
