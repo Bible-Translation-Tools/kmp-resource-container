@@ -10,5 +10,5 @@ To use this library your project must be configured to use the Nexus repositorie
 
 Add the following to your package dependencies and sync Gradle.
 ```
-implementation 'org.bibletranslationtools:resourcecontainer:1.0.2'
+implementation 'org.bibletranslationtools:resourcecontainer:1.0.3'
 ```

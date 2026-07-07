@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "org.bibletranslationtools"
-version = "1.0.2"
+version = "1.0.3"
 
 kotlin {
     jvmToolchain(11)
@@ -21,7 +21,7 @@ kotlin {
             dependencies {
                 implementation("net.mamoe.yamlkt:yamlkt:0.13.0")
                 implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.11.0")
-                implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.21.2")
+                implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.22.0")
                 implementation("org.apache.commons:commons-compress:1.28.0")
             }
         }

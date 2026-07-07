@@ -71,6 +71,9 @@ data class Resource(
     )
 
     companion object {
+        const val ULB_SLUG = "ulb"
+        const val UDB_SLUG = "udb"
         const val REGULAR_SLUG = "reg"
+        const val OBS_SLUG = "obs"
     }
 }
