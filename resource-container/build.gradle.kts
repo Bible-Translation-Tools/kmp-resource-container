@@ -110,8 +110,8 @@ publishing {
                     "https://nexus-registry.walink.org/repository/maven-releases"
             )
             credentials {
-                username = (project.findProperty("repoUser") as? String) ?: System.getenv("REPO_USER")
-                password = (project.findProperty("repoPassword") as? String) ?: System.getenv("REPO_PASSWORD")
+                username = (project.findProperty("nexusUsername") as? String) ?: System.getenv("NEXUS_USER")
+                password = (project.findProperty("nexusPassword") as? String) ?: System.getenv("NEXUS_PASSWORD")
             }
         }
     }
